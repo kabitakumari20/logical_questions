@@ -1,9 +1,6 @@
 let nums1 = [1,3]
 let nums2 = [2,4]
 let array=nums1.concat(nums2)
-// Sort the array
-// array.sort((a, b) => a - b);
-
 for (let i = 0; i < array.length; i++) {
     for (let j = i+1; j < array.length; j++) {
         if(array[i] > array[j]){
