@@ -19,7 +19,7 @@ var join = function(...arrays) {
             }
         }
     }
-
+    
     return Object.values(map);
 };
 
